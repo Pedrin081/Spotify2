@@ -8,7 +8,10 @@ body{
     left: 0;
     bottom: 0;
     width: 300px;
-    padding-top: 12px;
+    padding: 12px;
+    max-height: calc(50% - 6px); 
+    overflow-y: auto; 
+    margin-bottom: 12px;
 }
 
 .sidebar_navigation{
@@ -42,7 +45,7 @@ body{
 }
 
 .sidebar nav ul a{
-    text-decoration: none;
+    text-decoration: none;  
     color: #b3b3b3;
     font-weight: 600px;
     font-size: 14px;
@@ -50,5 +53,29 @@ body{
 }
 
 .Biblioteca{
-    display: flex;
+    position: fixed;
+    top: calc(23% + 6px);
+    left: 0;
+    width: 300px;
+    padding: 12px;
+    bottom: 0;
+    
+}
+
+.Biblioteca-nav ul li{
+    padding: 0 20px 10px 20px;
+}
+
+.Biblioteca-nav{
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 16px 0 0 16px;
+}
+
+.Biblioteca-nav  ul li {
+text-decoration: none;
+color: #b3b3b3;
+font-weight: 600px;
+font-size: 14px;
+font-family: "DM Sans", sans-serif;
 }
