@@ -154,7 +154,7 @@
   
   
   .offer__list-item {
-     display: grid;
+    display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
